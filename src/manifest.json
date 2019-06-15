@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "My Google News Extension",
+  "description": "Chrome Extension that shows the latest news from Google about the current site.",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "assets/icon.png",
+    "default_popup": "index.html#popup"
+  },
+  "permissions": [],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
